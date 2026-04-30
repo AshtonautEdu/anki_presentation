@@ -13,8 +13,6 @@ execute:
 
 ## The Problem
 
-
-
 I want to remember things like:
 
 ::: {.incremental}
@@ -25,25 +23,7 @@ I want to remember things like:
 ::: {.fragment}
 - $e^x$ looks something like this:
 
-```{python}
-import numpy as np
-import matplotlib.pyplot as plt
-
-x = np.linspace(-3, 3, 100)
-y = np.exp(x)
-
-fig, ax = plt.subplots()
-ax.plot(x, y)
-ax.set_xticks([])
-ax.set_yticks([])
-ax.set_xticklabels([])
-ax.set_yticklabels([])
-ax.set_xlabel('$x$', fontsize='xx-large')
-ax.set_ylabel('$e^x$', fontsize='xx-large')
-
-plt.show()
-```
-
+![](./img/e.svg){style="height: 30vh;"}
 :::
 
 ## What can I do?
@@ -71,7 +51,7 @@ Spaced out reading?
 ::: {.fragment}
 Flashcards!
 
-![](./img/flashcard.jpg)
+![](./img/flashcard.jpg){style="height: 50vh;"}
 
 Achieves active recall - effective!
 :::
@@ -91,7 +71,7 @@ Successful recall?
 - If yes, wait longer until next attempt
 - If not, attempt again soon.
 
-![](./img/leitner.png)
+![](./img/leitner.png){style="height:20vh;"}
 :::
 
 ## But...
@@ -169,6 +149,6 @@ Anki has been a big boost to my studies because of:
 - Automatic spaced repetition
 - Digital features on cards
 
-# Thanks for listening!
+# Thank you!
 
 The repository for this presentation can be found at [https://github.com/AshtonautEdu/anki_presentation](https://github.com/AshtonautEdu/anki_presentation/tree/main)
