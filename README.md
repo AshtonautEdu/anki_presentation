@@ -4,8 +4,8 @@ A short presentation on [Anki](https://apps.ankiweb.net/) and how it has helped 
 
 ## Credits:
 
-- [leitner.png](https://commons.wikimedia.org/wiki/File:Leitner_system_alternative.svg): Zirguezi on WikiMedia
+- leitner.png: Zirguezi on [WikiMedia](https://commons.wikimedia.org/wiki/File:Leitner_system_alternative.svg)
 
-- [flashcard.png](https://pixabay.com/photos/index-cards-cards-paper-1591812/): AnnasPhotography on Pixabay
+- flashcard.png: AnnasPhotography on [Pixabay](https://pixabay.com/photos/index-cards-cards-paper-1591812/)
 
 - Anki images obtained by screenshots of the [Anki](https://apps.ankiweb.net/) program.
