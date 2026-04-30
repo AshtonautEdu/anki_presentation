@@ -171,3 +171,4 @@ Anki has been a big boost to my studies because of:
 
 # Thanks for listening!
 
+The repository for this presentation can be found at [https://github.com/AshtonautEdu/anki_presentation](https://github.com/AshtonautEdu/anki_presentation/tree/main)
