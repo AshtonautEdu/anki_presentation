@@ -1,0 +1,173 @@
+---
+title: "Anki"
+subtitle: "A program that has helped in my studies"
+author:
+    name: Jarrod Ashton
+format:
+    revealjs: 
+        slide-number: true
+        css: ./styles.css
+execute:
+    echo: false
+---
+
+## The Problem
+
+
+
+I want to remember things like:
+
+::: {.incremental}
+- There are 8 (or is it 9?) planets in the solar system
+- $a^n + b^n = c^n$ has no positive integer solutions for integer $n > 2$
+:::
+
+::: {.fragment}
+- $e^x$ looks something like this:
+
+```{python}
+import numpy as np
+import matplotlib.pyplot as plt
+
+x = np.linspace(-3, 3, 100)
+y = np.exp(x)
+
+fig, ax = plt.subplots()
+ax.plot(x, y)
+ax.set_xticks([])
+ax.set_yticks([])
+ax.set_xticklabels([])
+ax.set_yticklabels([])
+ax.set_xlabel('$x$', fontsize='xx-large')
+ax.set_ylabel('$e^x$', fontsize='xx-large')
+
+plt.show()
+```
+
+:::
+
+## What can I do?
+
+::: {.fragment}
+Cram?
+:::
+
+::: {.fragment}
+- Dubious effectiveness (especially long-term)
+- Super stressful!
+:::
+
+::: {.fragment}
+Spaced out reading?
+:::
+
+::: {.fragment}
+- Much more sustainable
+- Passive
+:::
+
+## The solution?
+
+::: {.fragment}
+Flashcards!
+
+![](./img/flashcard.jpg)
+
+Achieves active recall - effective!
+:::
+
+## Further improvement
+
+Some efficiency gains can be had:
+
+- More reviews $\to$ better recall $\to$ fewer reviews needed later
+- Why review something I remember easily?
+
+::: {.fragment}
+Solved by **spaced repetition**
+
+Successful recall?
+
+- If yes, wait longer until next attempt
+- If not, attempt again soon.
+
+![](./img/leitner.png)
+:::
+
+## But...
+
+- I have over 1000 flashcards - stacked together, over 25cm high!
+- Managing spaced repetition for each one? Good luck!
+- What even is the optimal spacing?
+
+::: {.fragment}
+If only something could help...
+:::
+
+## Anki! {style="text-align: center;"}
+
+![](./img/anki_main.png){style="height: 70vh;" fig-align="center"}
+
+A flashcard **program**!
+
+## Basic Workflow:
+
+::: {.columns}
+::: {.column width="50%"}
+Create a card:
+
+![](./img/anki_add.png)
+:::
+
+::: {.column width="50%" .fragment}
+Review a card:
+
+![](./img/anki_question.png)
+
+![](./img/anki_answer.png)
+
+:::
+
+:::
+
+## Now I can...
+
+::: {.incremental}
+- Review any card, any time, any place
+    - Any device! (sync)
+- Easily backup all of my cards
+- Use complicated spaced repetition algorithms without thinking
+    - Focus on learning the cards!
+:::
+
+## Other helpful features:
+
+::: {.incremental}
+- Made a mistake? Just edit!
+- Support for images, video, audio
+- Support for LaTeX
+:::
+
+::: {.fragment}
+![](./img/anki_latex.png){style="height: 50vh;"}
+:::
+
+## The cherry on top:
+
+Anki is free and open-source! ([GitHub](https://github.com/ankitects/anki/tree/main))
+
+::: {.incremental}
+- Can be extended with other plugins
+- Other people have already shared their plugins and card decks!
+:::
+
+## To summarise:
+
+Anki has been a big boost to my studies because of:
+
+- Portability
+- Automatic spaced repetition
+- Digital features on cards
+
+# Thanks for listening!
+
