@@ -69,7 +69,7 @@ Solved by **spaced repetition**
 Successful recall?
 
 - If yes, wait longer until next attempt
-- If not, attempt again soon.
+- If not, attempt again soon
 
 ![](./img/leitner.png){style="height:20vh;"}
 :::
